@@ -1,0 +1,89 @@
+.books-list-item-container {
+  display: flex;
+  width: 40%;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .books-list-item-container {
+    width: 100%;
+    list-style-type: none;
+  }
+}
+.link-item1 {
+  display: flex;
+  text-decoration: none;
+}
+
+.cover-image {
+  height: 150px;
+  border-radius: 5px;
+  width: 100px;
+}
+.text-container-of-list-item {
+  margin-left: 10px;
+  width: 60%;
+  color: #334155;
+}
+.margin {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.book-title {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 600;
+  width: 80%;
+}
+.book-author-name {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+}
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  margin-bottom: -15px;
+}
+.star {
+  color: #fbbf24;
+  cursor: pointer;
+}
+.rating-status-title {
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+}
+.read-status-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: -36px;
+}
+
+.read-status {
+  color: #0284c7;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 6px;
+}
+.read-status:hover {
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}
+.star:hover {
+  cursor: pointer;
+  border: 1px solid blue;
+}
+.rating-status-title:hover {
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}

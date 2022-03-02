@@ -1,0 +1,212 @@
+/* main container */
+
+#bookshelves-main-container {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* sub container */
+#bookshelves-sub-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid black; */
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  #bookshelves-sub-container {
+    /* border: 5px solid black; */
+    flex-direction: row;
+    min-height: 100vh;
+    width: 80%;
+    margin-top: 20px;
+    padding: 0px;
+  }
+}
+/* left navbar */
+#bookshelves-left-navbar {
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  #bookshelves-left-navbar {
+    background-color: #ffffff;
+    min-height: 90%;
+    min-width: 150px;
+  }
+}
+.left-navbar-heading {
+  font: 600 14px 'Roboto';
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .left-navbar-heading {
+    font: 600 16px 'Roboto';
+    margin-left: 15px;
+  }
+}
+.list-container-of-bookshelves-options {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container-of-bookshelves-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+}
+
+/* books list container */
+#render-book-list-container {
+}
+@media screen and (min-width: 768px) {
+  #render-book-list-container {
+    width: 100%;
+    /* border: 2px green solid; */
+    margin-left: 10px;
+  }
+}
+
+#show-books-container {
+}
+
+.bookshelves-show-container {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  min-height: 80vh;
+  /* border: 2px solid blue; */
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+}
+
+/* no books container */
+.no-books-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.no-books-image {
+  width: 60%;
+  height: 60%;
+}
+
+/* failure view container */
+.bookshelves-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* loader container */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+
+/* Search container */
+.mobile-search-input-container {
+  display: flex;
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-search-input-container {
+    display: none;
+  }
+}
+.search-container-heading {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .search-container-heading {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+#search-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 43px;
+  }
+}
+
+.search-icon-and-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 2px solid #cbd5e1;
+  box-shadow: 5px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon-and-input-container {
+    /* border: 2px solid red; */
+  }
+}
+
+.search-input {
+  height: 37px;
+  width: 250px;
+  border: none;
+  padding-left: 10px;
+}
+.search-icon-container {
+  padding: 7.5px 16px;
+  background-color: #e5e5e5;
+  border: none;
+}
+.search-icon {
+  height: 14px;
+  width: 14px;
+}
+.bookshelves-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 59px;
+  margin-left: 18px;
+}
+@media screen and (min-width: 768px) {
+  .bookshelves-search-container {
+    height: 20px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+    order: 1;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+}
